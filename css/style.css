@@ -1,0 +1,47 @@
+/* Bootstrap Reset CSS Start */
+h1, h2, h3, h4, h5, h6,
+p,
+small,
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style-type: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* //Bootstrap Reset CSS End */
+
+/* Common CSS Start */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* Common CSS End */
+
+/* Topbar Section CSS Start */
+#topBar{
+    background: #ffca36;
+    font-size: 14px;
+}
+#topBar .topBar_left p{
+    padding: 16px 0;
+    color: #353535;
+}
+#topBar .topBar_mid{
+    background: #353535;
+    transform: skewX(-30deg);
+    padding: 16px 0;
+    color: #fff;
+}
+#topBar .topBar_mid p{
+    transform: skewX(30deg);
+}
+#topBar .topBar_right ul li a{
+    display: inline-block;
+    padding: 16px 19px;
+    color: #353535;
+}
+/* Topbar Section CSS End */
